@@ -1,5 +1,7 @@
+import './helloWorld.scss'
+
 function HelloWorld() {
-	return <div>helloWorld</div>
+	return <div className="helloBlock">helloWorld</div>
 }
 
 export default HelloWorld
